@@ -14,7 +14,7 @@ var c = 300;
 //}
 
 function setup() {
-  createCanvas(800,400);
+  createCanvas(displayWidth,displayHeight);
   
 }
 
