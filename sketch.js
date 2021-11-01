@@ -6,12 +6,12 @@ var b = 200;
 var c = 300;
 
 
-let lights;
+//let lights;
 
-function preload(){
+//function preload(){
  
-  lights = loadImage('Diwali-Greeting/lights.png');
-}
+  //lights = loadImage('Diwali-Greeting/lights.png');
+//}
 
 function setup() {
   createCanvas(displayWidth,displayHeight);
@@ -19,9 +19,9 @@ function setup() {
 }
 
 function draw() {
-  //background(0,0,0);
+  background(0,0,0);
    
-  image(lights,0,0,width,height);
+  //image(lights,0,0,width,height);
   
   
   textSize(100);
@@ -32,9 +32,9 @@ function draw() {
  textSize(40);
   fill(81, 240, 7);
   s1 = "The Demon is always within."
-  //text(s1,displayWidth/2-150,325);
+  text(s1,displayWidth/2-150,325);
   s2 = "The Godess is always within."
-  //text(s2,width/2-500,375);
+  text(s2,width/2-500,375);
   s3 = "The battle too,is always within."
   //text(s3,width/2-150,425);
   s4 = "And so is the TRIUMPH of one, over the other."
