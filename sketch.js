@@ -9,8 +9,8 @@ let pantee ;
 let lights;
 
 function preload(){
-  pantee = loadImage('pantee.png');
-  lights = loadImage('lights.png');
+  pantee = loadImage('Diwali-Greeting/pantee.png');
+  lights = loadImage('Diwali-Greeting/lights.png');
 }
 
 function setup() {
