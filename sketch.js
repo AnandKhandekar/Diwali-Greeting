@@ -14,7 +14,7 @@ var c = 300;
 //}
 
 function setup() {
-  createCanvas(displayWidth,displayHeight);
+  createCanvas(800,400);
   
 }
 
@@ -27,12 +27,12 @@ function draw() {
   textSize(100);
   fill(255);
    s = "Happy Diwali";
-  text(s, displayWidth / 2 - 100, 190);
+  text(s, 800 / 2 - 100, 190);
  
  textSize(40);
   fill(81, 240, 7);
   s1 = "The Demon is always within."
-  text(s1,displayWidth/2-150,325);
+  text(s1,800/2-150,325);
   s2 = "The Godess is always within."
   text(s2,width/2-500,375);
   s3 = "The battle too,is always within."
