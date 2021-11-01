@@ -5,11 +5,11 @@ var a = 100;
 var b = 200;
 var c = 300;
 
-let pantee ;
+
 let lights;
 
 function preload(){
-  pantee = loadImage('Diwali-Greeting/pantee.png');
+ 
   lights = loadImage('Diwali-Greeting/lights.png');
 }
 
